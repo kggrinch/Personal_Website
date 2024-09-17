@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+    <title>Website Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  <body>
+
+    <header class="header">
+      <a href="#home" class="logo">Kirill
+        <span>Grichanichenko</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+          <a href="#home" class="active">Home</a>
+          <a href="#education">Education</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>Kirill</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p>
+          eager to apply my skills and knowledge to develop
+           and maintain clean and innovative production software. </p>
+
+          <div class="social-icons">
+    <a href="https://www.linkedin.com/in/kirill-grichanichenko-5408a2313/" target="_blank" rel="noopener noreferrer">
+        <i class='bx bxl-linkedin'></i>
+    </a>
+    <a href="https://github.com/kggrinch" target="_blank" rel="noopener noreferrer">
+        <i class='bx bxl-github'></i>
+    </a>
+</div>
+
+          <div class="btn-group">
+            <a href="#contact" class="btn">Hire</a>
+            <a href="#contact" class="btn">Contact</a>
+          </div>
+        </div>
+          <div class="home-img">
+            <img src="image.webp" alt="">
+          </div>
+    </section>
+
+    <section class="education" id="education">
+      <h2 class="heading">Education</h2>
+      
+      <div class="timeline-items">
+        
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+            <div class="timeline-date">2021</div>
+            <div class="timeline-content">
+              <h3>Mariner High School / Penn-Foster</h3>
+              <p>During my time at Mariner High School, I actively participated in team sports, including football and wrestling, and took programming classes such as
+                 Intro to Programming 1 and 2. In my junior year, I transitioned to online school to focus on job opportunities and completed my education in 2021.</p>
+            </div>
+          
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+            <div class="timeline-date">2022</div>
+            <div class="timeline-content">
+              <h3>Edmonds College</h3>
+              <p>At Edmonds College, I earned an Associate in Computer Science
+                 and had the opportunity to collaborate with many wonderful students from across the globe
+                 while working on the many projects that have taught me important skills such as effective
+                 team communication, problem-solving, and leadership.
+                </p>
+            </div>
+          
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+            <div class="timeline-date">2024</div>
+            <div class="timeline-content">
+              <h3>University of Washington</h3>
+              <p>I am currently attending the University of Washington,
+                 where I am pursuing a Bachelor's in Computer Science.
+                  I aim to excel in software development and am actively
+                   seeking internships and job opportunities while taking
+                    advantage of the hands-on projects and collaborative environment
+                     at the university. </p>
+            </div>
+        </div>
+      
+    </section>
+
+
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Research</h4>
+            <p>In January 2024, my team led a research project to optimize the
+               NACA 0024 airfoil's performance. We experimented with airfoil models
+                in a wind tunnel and developed algorithms using array manipulation
+                 and method chaining to process data, analyze deviations, and compare
+                  theoretical expectations.</p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Student</h4>
+            <p>As a student, I have developed a deep appreciation for diversity and
+               collaborative, team-based projects. Constantly working alongside peers
+                from various backgrounds has taught me to solve problems from many
+                 angles and how to adapt different viewpoints to communicate
+                  effectively.</p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Backend</h4>
+            <p>While working and learning Java, I had the opportunity to build and
+               manage backend systems using Java's JDBC connector, integrating it
+                with SQL databases in several of my projects. I created, managed,
+                 and optimized database tables by implementing proper foreign keys
+                  to form efficient relationships and minimizing over-joining in
+                   queries.</p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Frontend Development</h4>
+            <p>Throughout my projects, I have consistently implemented frontend
+               components, creating user interfaces to allow users easy interaction
+                with my applications. Developing user interfaces has taught me the
+                 importance of thinking through the user's perspective and developing
+                  organized and clean logical layouts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <section class="projects" id="projects">
+      <div class="projects-box">
+        <h2 class="heading">Projects</h2>
+
+        <div class="wrapper">
+          <div class="project-item">
+            <a href="https://github.com/kggrinch/Graph-Explorer" target="_blank" class="project-link">
+            <img src="1.JPG" alt="">
+            <h2>Graph Explorer</h2>
+            <p>GUI application that interacts with weighted,
+               undirected graphs derived from text file data. The application implements
+                Kruskal’s Algorithm for MST and Dijkstra’s Algorithm for
+                 shortest path</p>
+                </a>
+          </div>
+
+          <div class="project-item">
+            <a href="https://github.com/kggrinch/Site-Manager" target="_blank" class="project-link">
+            <img src="2.JPG" alt="">
+            <h2>Site Manager</h2>
+            <p>GUI application for managing a database of famous sites stored
+               in an external SQL repository. The application features
+                functionalities to display, add, edit, delete, and search for
+                 site entries</p>
+                </a>
+          </div>
+
+          <div class="project-item">
+            <a href="https://github.com/kggrinch/Site-Quiz" target="_blank" class="project-link">
+            <img src="3.JPG" alt="">
+            <h2>Site Quiz</h2>
+            <p>An interactive GUI quiz game about famous vacation sites.
+               It uses file management to read/store player and site data
+                and implements a binary search tree to manage, search, randomly
+                 select sites, and update the scoring system</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+    
+      <form id="contact-form">
+        <div class="input-group">
+          <div class="input-box">
+
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+          </div>
+          <div class="input-box">
+            <input type="number" id="phone" placeholder="Phone number" required>
+            <input type="text" id="subject" placeholder="Subject" required>
+          </div>
+        </div>
+    
+        <div class="input-group-2">
+
+          <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+          <input type="submit" value="Send Message" class="btn">
+        </div>
+      </form>
+    </section>
+
+
+    <footer class="footer">
+      <div class="social">
+        <a href="https://www.linkedin.com/in/kirill-grichanichenko-5408a2313/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/kggrinch" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github' ></i></a>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+
+        <li>
+          <a href="#education">Education</a>
+        </li>
+
+        <li>
+          <a href="#services">Services</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <p class="copyright">
+        © Kirill Grichanichenko | All Rights Reserved
+      </p>
+    </footer>
+
+    
+    <script src="script.js"></script>
+
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        emailjs.init("93iD2XO0IojJVTtX8");
+    })();
+</script>
+
+
+</body>
+</html>
