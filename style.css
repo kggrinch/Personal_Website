@@ -388,12 +388,12 @@ span{
   padding: 5rem 5rem;
 }
 .service-info h4{
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 800;
   line-height: 2;
 }
 .service-info p{
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 600;
   max-height: 100px;
   line-height: 1.7;
@@ -460,10 +460,6 @@ span{
 }
 .project-item p{
   font-size: 1.3rem;
-}
-#star{
-  color: gold;
-  font-size: 2rem;
 }
 .contact{
   background-color: var(--bg-color);
@@ -566,6 +562,13 @@ span{
     grid-template-columns: repeat(2,1fr);
     margin: 0 5rem;
   }
+  .service-info h4 { 
+    font-size: 1.8rem;
+  }
+
+  .service-info p { 
+    font-size: 1.3rem;
+  }
 }
 @media(max-width:991px){
   header{
@@ -590,6 +593,15 @@ span{
   .services{
     padding-bottom: 7rem;
   }
+
+  .service-info h4 {
+    font-size: 2.0rem;
+  }
+
+  .service-info p {
+    font-size: 1.4rem;
+  }
+
   .projects .wrapper{
     grid-template-columns: repeat(1,1fr);
   }
@@ -649,5 +661,13 @@ span{
   }
   .services-container{
     grid-template-columns: repeat(1,1fr);
+  }
+
+  .service-info h4 {
+    font-size: 2.4rem;
+  }
+
+  .service-info p {
+    font-size: 1.4rem;
   }
 }
